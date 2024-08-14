@@ -1,4 +1,15 @@
-﻿using System;
+﻿/*
+ *     See dshow directory for registering services
+ *              - regsvr32 x64\uvcsam.ax
+ *              - must be run 
+ *              
+ *     Also see https://github.com/UAA-Robo/tree-ring/tree/main          
+ *     
+ *     
+ *     cd C:\Users\jglatts\Downloads\AmScope-Camera-SDK-Software\uvcsamsdk.20240311\dshow
+ *     regsvr32 x64\uvcsam.ax
+ */
+using System;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Windows.Forms;
@@ -52,7 +63,7 @@ namespace demowinform
             Uvcsam.Device[] arr = Uvcsam.Enum();
             if (arr.Length <= 0)
             {
-                MessageBox.Show("No camera found.");
+                MessageBox.Show("No camera found. Length = " + arr.Length.ToString());
                 return;
             }
 
