@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demowinform", "demowinform.csproj", "{AA5B2412-0B75-46F3-AD5E-6C06D6707FBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA5B2412-0B75-46F3-AD5E-6C06D6707FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5B2412-0B75-46F3-AD5E-6C06D6707FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5B2412-0B75-46F3-AD5E-6C06D6707FBC}.Debug|x86.ActiveCfg = Debug|x86
+		{AA5B2412-0B75-46F3-AD5E-6C06D6707FBC}.Debug|x86.Build.0 = Debug|x86
+		{AA5B2412-0B75-46F3-AD5E-6C06D6707FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5B2412-0B75-46F3-AD5E-6C06D6707FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5B2412-0B75-46F3-AD5E-6C06D6707FBC}.Release|x86.ActiveCfg = Release|x86
+		{AA5B2412-0B75-46F3-AD5E-6C06D6707FBC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A24C6913-E92A-4912-BCE1-57C25CD3A6BA}
+	EndGlobalSection
+EndGlobal
